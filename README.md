@@ -26,3 +26,14 @@ Releases are signed with:
 The fingerprint is the SHA-256 of the raw 32-byte public key. Publishing it
 lets anyone confirm that the key compiled into their copy of Who's Cam is the
 same key that signs releases here.
+
+## Where things are published
+
+| | |
+|---|---|
+| Signed manifest | `manifest.json` at the repository root, on `main` |
+| Release payloads | attached as assets to a GitHub release |
+
+The manifest is a signed envelope: the manifest itself, the `key_id` it was
+signed with, the algorithm, and the signature. A release is not considered
+published until its manifest is committed here.
