@@ -1,0 +1,6 @@
+{
+  "algorithm": "ed25519",
+  "key_id": "REHEARSAL-DO-NOT-SHIP-2026-08",
+  "manifest": "{\"app_id\":\"whoscam-desktop\",\"channel\":\"stable\",\"download_url\":\"https://github.com/whoscamsupport/whoscam-desktop-releases/releases/download/rehearsal-0.0.1/rehearsal-payload-0.0.1-rehearsal.zip\",\"issued_at\":\"2026-08-16T00:00:00Z\",\"manifest_schema_version\":1,\"min_updater_protocol\":1,\"payload_files\":[{\"path\":\"REHEARSAL-DO-NOT-SHIP.txt\",\"sha256\":\"ad3ea5899252bb7f37272c0160bc23e962c6337b4142c006d3b6157f57ccd08b\",\"size\":563}],\"release_id\":1,\"rollout_percent\":0,\"sha256\":\"2465e5f24387548638fbf9caae6fb835b113f8033dfc480a4e6ace1ed99888df\",\"size_bytes\":510,\"version\":\"0.0.1-rehearsal\"}",
+  "signature": "EuQiAL/twyDvBdboYQQ5AbweeYmxPXFdvvx9duYVJVKJPKLhv/0+Ozfv4F9Rkt0EojEeiIdnZYqHg2ri1C2RBg=="
+}
